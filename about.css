@@ -1,0 +1,176 @@
+
+      *
+      {
+        box-sizing: border-box;
+      }  
+    .image888
+    {
+        background-image: url("gallary/a55.png") ;
+        height: fit-content; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        display: inline-block;
+        max-width: 50%;
+        margin-left: 15px;
+    }
+    .imo77
+    {
+        max-width: 100%;
+        padding: 30px;
+    }
+
+
+
+    .main123{
+        padding:1px ;
+
+    }
+    .content77
+    {
+        display: inline-block;
+        max-width: 48%;
+        padding:120px 20px 20px 20px;
+        height: fit-content; 
+        vertical-align:top;
+
+
+    }
+    .content77 h1 {
+        font-size: 36px;
+        color: #333;
+    }
+    .content77 p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.5;
+        margin: 20px 0;
+    }
+    .content77 ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .content77 ul li {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+    .content77 ul li:before {
+        content: '✔' ;
+        color: #00A86B;
+        margin-right: 10px;
+    }
+    .content77 .read-more {
+        padding:  20px 30px 20px 20px;
+        background-color: #00B98E;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .read-more:hover
+    {
+        background-color: #01d9a7;
+
+    }
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+    .image888
+    {
+        max-width: 50%;
+
+    }
+    .content77
+    {
+        max-width: 44%;
+        padding:10px 20px 20px 20px;
+
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .content77 h1 
+    {
+        font-size: 27px;
+
+    }
+    .content77 p 
+    {
+        font-size: 10px;
+
+    }
+
+
+}
+@media screen and (max-width: 900px)
+{
+    .content77 h1 
+    {
+        font-size: 27px;
+
+    }
+    .content77 p 
+    {
+        font-size: 10px;
+
+    }
+    .content77 ul li {
+        font-size: 10px;
+
+    }
+
+
+}
+@media screen and (max-width: 620px)
+{
+    .content77 h1 
+    {
+        font-size: 10px;
+        padding:0px;
+
+
+    }
+    .content77 p 
+    {
+        font-size: 4px;
+        padding:0px;
+
+
+    }
+    .content77 ul li {
+        font-size: 5px;
+        padding: 0%;
+        padding:0px;
+
+
+    }
+    .content77 .read-more 
+        {
+        padding: 0px;
+        font-size: 5px;
+        padding:0px;
+
+
+    }
+    .image888
+    {
+        max-width: 50%;
+        padding:0px;
+
+
+    }
+    .content77
+    {
+        max-width: 33%;
+        padding:0px;
+
+    }
+
+}
